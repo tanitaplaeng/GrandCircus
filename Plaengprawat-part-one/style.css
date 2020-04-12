@@ -1,0 +1,146 @@
+body { 
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1.detail { 
+    color:#20a8b4;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px; 
+    margin-left: 20px;
+    display: inline-block;
+}
+
+span.name { 
+    color:#ff5c0f;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+span.header { 
+    color: black;
+}
+
+ul.topnav {
+    display: inline-block;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+ padding: 12px;
+  overflow: hidden;
+  background-color: #F2F2F2;
+}
+
+ul.topnav li {
+    float: left;
+    margin-top: 10px;
+    padding-right: 15px;
+}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {color: #ff5c0f;}
+
+ul.topnav li.right {float: right;}
+
+.button {
+    border: none;
+    border-radius: 10px;
+    background-color: #20a8b4;
+    padding: 12px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+    width: auto;
+  }
+
+  .button:hover {
+    background-color: #ff5c0f;
+    color: #ffffff;
+  }
+
+h1.detail { 
+    color:#20a8b4;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px; 
+    margin-left: 20px;
+}
+
+span.name { 
+    color:#ff5c0f;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.button2 {
+    border: none;
+    border-radius: 10px;
+    background-color: #20a8b4;
+    padding: 12px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+    width: auto;
+  }
+
+.button2:hover {
+    background-color: #ff5c0f;
+    color: #ffffff;
+  }
+
+  .flex-container-image { 
+      float: right; 
+      padding-top: 75px;
+      padding-left: 200px;
+      width: 100%;
+      height: auto;
+  }
+
+.flex-container {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.flex-container > div {
+    width: auto;
+    margin-left: 20px; 
+    padding-top: 100px;
+  }
+
+
+@media only screen and (max-width: 768px) {
+    img {
+      display: none;
+    }
+
+    .button {
+        float: none;
+        width: 100%;
+    }
+
+    .button2 { 
+        float: none;
+        width: 100%;
+    }
+
+    ul.topnav li.right, 
+    ul.topnav li {float: none;
+    }
+    
+}
